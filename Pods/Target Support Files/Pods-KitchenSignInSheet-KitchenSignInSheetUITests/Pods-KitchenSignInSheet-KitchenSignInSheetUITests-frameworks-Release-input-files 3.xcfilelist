@@ -1,0 +1,9 @@
+${PODS_ROOT}/Target Support Files/Pods-KitchenSignInSheet-KitchenSignInSheetUITests/Pods-KitchenSignInSheet-KitchenSignInSheetUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AppAuth/AppAuth.framework
+${BUILT_PRODUCTS_DIR}/Charts/Charts.framework
+${BUILT_PRODUCTS_DIR}/GTMAppAuth/GTMAppAuth.framework
+${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework
+${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework
+${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/SpreadsheetView/SpreadsheetView.framework
+${BUILT_PRODUCTS_DIR}/SwiftAlgorithms/Algorithms.framework

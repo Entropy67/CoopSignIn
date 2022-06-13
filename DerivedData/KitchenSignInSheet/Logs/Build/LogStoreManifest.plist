@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>04865923-0404-4F9F-9102-AAD962EE5459</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>04865923-0404-4F9F-9102-AAD962EE5459.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>KitchenSignInSheet project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>KitchenSignInSheet</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Archive KitchenSignInSheet</string>
+			<key>timeStartedRecording</key>
+			<real>676786180.98008299</real>
+			<key>timeStoppedRecording</key>
+			<real>676786259.83632004</real>
+			<key>title</key>
+			<string>Archive KitchenSignInSheet</string>
+			<key>uniqueIdentifier</key>
+			<string>04865923-0404-4F9F-9102-AAD962EE5459</string>
+		</dict>
+		<key>D6B3DC5C-98A4-4D1B-8DD7-1401EEF2E47B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D6B3DC5C-98A4-4D1B-8DD7-1401EEF2E47B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>KitchenSignInSheet project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>KitchenSignInSheet</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Archive KitchenSignInSheet</string>
+			<key>timeStartedRecording</key>
+			<real>676838519.17860603</real>
+			<key>timeStoppedRecording</key>
+			<real>676838628.54733503</real>
+			<key>title</key>
+			<string>Archive KitchenSignInSheet</string>
+			<key>uniqueIdentifier</key>
+			<string>D6B3DC5C-98A4-4D1B-8DD7-1401EEF2E47B</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,94 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "59c65764c35968237e3440faf50ffd01866a28a118a0babc2ea33ba167348923"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42758cc842172da540ffb591e63e38dc1e"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd4283d8a08430162cd492988bf2ec427a1d"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42aae1e4fe717e46ad81584fba5cf6a219"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd426c0c3dae22ae447d137f464b218734bc"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd420be6c76e7b3dde057d7e3e6ad61f30d4"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd427375d06617bf35192289180c4175dd21"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42dd3a6a519ed4181bf31ea6bc1f18ebc5"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd429e9936b332521fc5a17659883f7982d2"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd420953890c98b57097232a40b888ca5860"
+    }
+  ],
+  "containerPath" : "/Users/skyhd/Documents/xcode/CoopSignIn/KitchenSignInSheet.xcworkspace",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "arm64e",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos15.4",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "armv4t",
+        "armv5",
+        "armv6",
+        "armv7",
+        "armv7f",
+        "armv7s",
+        "armv7k",
+        "arm64",
+        "arm64e"
+      ],
+      "targetArchitecture" : "arm64e"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/skyhd/Documents/xcode/CoopSignIn/DerivedData/KitchenSignInSheet/Index/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/skyhd/Documents/xcode/CoopSignIn/DerivedData/KitchenSignInSheet/Index/Build/Products",
+      "derivedDataPath" : "/Users/skyhd/Documents/xcode/CoopSignIn/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/skyhd/Documents/xcode/CoopSignIn/DerivedData/KitchenSignInSheet/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/skyhd/Documents/xcode/CoopSignIn/DerivedData/KitchenSignInSheet/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/skyhd/Documents/xcode/CoopSignIn/DerivedData/KitchenSignInSheet/Index/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/skyhd/Documents/xcode/CoopSignIn/DerivedData/KitchenSignInSheet/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>PDFKit</string>
+	<string>AppAuthCore</string>
+	<string>QuartzCore</string>
+	<string>CommonCrypto</string>
+	<string>AuthenticationServices</string>
+	<string>WatchKit</string>
+	<string>GTMSessionFetcherCore</string>
+	<string>GoogleAPIClientForREST</string>
+	<string>JGProgressHUD</string>
+	<string>sys</string>
+	<string>Security</string>
+	<string>AppKit</string>
+	<string>Foundation</string>
+	<string>SpreadsheetView</string>
+	<string>GoogleSignIn</string>
+	<string>UIKit</string>
+	<string>AppAuth</string>
+	<string>GTMSessionFetcher</string>
+	<string>SafariServices</string>
+</array>
+</plist>

@@ -1,0 +1,59 @@
+Target dependency graph (18 targets)
+AppAuth in Pods, no dependencies
+GTMSessionFetcher in Pods, no dependencies
+GTMAppAuth in Pods, depends on:
+AppAuth in Pods (explicit)
+GTMSessionFetcher in Pods (explicit)
+GoogleAPIClientForREST in Pods, depends on:
+GTMSessionFetcher in Pods (explicit)
+GoogleSignIn in Pods, depends on:
+AppAuth in Pods (explicit)
+GTMAppAuth in Pods (explicit)
+GTMSessionFetcher in Pods (explicit)
+JGProgressHUD in Pods, no dependencies
+SpreadsheetView in Pods, no dependencies
+Pods-KitchenSignInSheet in Pods, depends on:
+AppAuth in Pods (explicit)
+GTMAppAuth in Pods (explicit)
+GTMSessionFetcher in Pods (explicit)
+GoogleAPIClientForREST in Pods (explicit)
+GoogleSignIn in Pods (explicit)
+JGProgressHUD in Pods (explicit)
+SpreadsheetView in Pods (explicit)
+KitchenSignInSheet in KitchenSignInSheet, depends on:
+Pods-KitchenSignInSheet in Pods (implicit dependency via file 'Pods_KitchenSignInSheet.framework' in build phase 'Link Binary')
+AppAuth in Pods (implicit dependency via options '-framework AppAuth' in build setting 'OTHER_LDFLAGS')
+GTMAppAuth in Pods (implicit dependency via options '-framework GTMAppAuth' in build setting 'OTHER_LDFLAGS')
+GTMSessionFetcher in Pods (implicit dependency via options '-framework GTMSessionFetcher' in build setting 'OTHER_LDFLAGS')
+GoogleAPIClientForREST in Pods (implicit dependency via options '-framework GoogleAPIClientForREST' in build setting 'OTHER_LDFLAGS')
+JGProgressHUD in Pods (implicit dependency via options '-framework JGProgressHUD' in build setting 'OTHER_LDFLAGS')
+SpreadsheetView in Pods (implicit dependency via options '-framework SpreadsheetView' in build setting 'OTHER_LDFLAGS')
+AppAuth in Pods, no dependencies
+GTMSessionFetcher in Pods, no dependencies
+GTMAppAuth in Pods, depends on:
+AppAuth in Pods (explicit)
+GTMSessionFetcher in Pods (explicit)
+GoogleAPIClientForREST in Pods, depends on:
+GTMSessionFetcher in Pods (explicit)
+GoogleSignIn in Pods, depends on:
+AppAuth in Pods (explicit)
+GTMAppAuth in Pods (explicit)
+GTMSessionFetcher in Pods (explicit)
+JGProgressHUD in Pods, no dependencies
+SpreadsheetView in Pods, no dependencies
+Pods-KitchenSignInSheet in Pods, depends on:
+AppAuth in Pods (explicit)
+GTMAppAuth in Pods (explicit)
+GTMSessionFetcher in Pods (explicit)
+GoogleAPIClientForREST in Pods (explicit)
+GoogleSignIn in Pods (explicit)
+JGProgressHUD in Pods (explicit)
+SpreadsheetView in Pods (explicit)
+KitchenSignInSheet in KitchenSignInSheet, depends on:
+Pods-KitchenSignInSheet in Pods (implicit dependency via file 'Pods_KitchenSignInSheet.framework' in build phase 'Link Binary')
+AppAuth in Pods (implicit dependency via options '-framework AppAuth' in build setting 'OTHER_LDFLAGS')
+GTMAppAuth in Pods (implicit dependency via options '-framework GTMAppAuth' in build setting 'OTHER_LDFLAGS')
+GTMSessionFetcher in Pods (implicit dependency via options '-framework GTMSessionFetcher' in build setting 'OTHER_LDFLAGS')
+GoogleAPIClientForREST in Pods (implicit dependency via options '-framework GoogleAPIClientForREST' in build setting 'OTHER_LDFLAGS')
+JGProgressHUD in Pods (implicit dependency via options '-framework JGProgressHUD' in build setting 'OTHER_LDFLAGS')
+SpreadsheetView in Pods (implicit dependency via options '-framework SpreadsheetView' in build setting 'OTHER_LDFLAGS')

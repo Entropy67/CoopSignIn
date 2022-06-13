@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_KitchenSignInSheet_KitchenSignInSheetUITests : NSObject
+@end
+@implementation PodsDummy_Pods_KitchenSignInSheet_KitchenSignInSheetUITests
+@end

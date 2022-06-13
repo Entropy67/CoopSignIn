@@ -1,0 +1,79 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "59c65764c35968237e3440faf50ffd01866a28a118a0babc2ea33ba167348923"
+    }
+  ],
+  "containerPath" : "/Users/skyhd/Documents/xcode/CoopSignIn/KitchenSignInSheet.xcworkspace",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "install",
+    "activeArchitecture" : "arm64e",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos15.4",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "armv4t",
+        "armv5",
+        "armv6",
+        "armv7",
+        "armv7f",
+        "armv7s",
+        "armv7k",
+        "arm64",
+        "arm64e"
+      ],
+      "targetArchitecture" : "arm64e"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/skyhd/Documents/xcode/CoopSignIn/DerivedData/KitchenSignInSheet/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/skyhd/Documents/xcode/CoopSignIn/DerivedData/KitchenSignInSheet/Build/Products",
+      "derivedDataPath" : "/Users/skyhd/Documents/xcode/CoopSignIn/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/skyhd/Documents/xcode/CoopSignIn/DerivedData/KitchenSignInSheet/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/skyhd/Documents/xcode/CoopSignIn/DerivedData/KitchenSignInSheet/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/skyhd/Documents/xcode/CoopSignIn/DerivedData/KitchenSignInSheet/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "install",
+          "ASSET_PACK_FOLDER_PATH" : "/Users/skyhd/Documents/xcode/CoopSignIn/DerivedData/KitchenSignInSheet/Build/Intermediates.noindex/ArchiveIntermediates/KitchenSignInSheet/InstallationBuildProductsLocation/OnDemandResources",
+          "BITCODE_GENERATION_MODE" : "bitcode",
+          "DEPLOYMENT_LOCATION" : "YES",
+          "DEPLOYMENT_POSTPROCESSING" : "YES",
+          "DSTROOT" : "/Users/skyhd/Documents/xcode/CoopSignIn/DerivedData/KitchenSignInSheet/Build/Intermediates.noindex/ArchiveIntermediates/KitchenSignInSheet/InstallationBuildProductsLocation",
+          "EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE" : "NO",
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ENABLE_DATA_STORE" : "NO",
+          "MESSAGES_APPLICATION_EXTENSION_SUPPORT_FOLDER_PATH" : "/Users/skyhd/Documents/xcode/CoopSignIn/DerivedData/KitchenSignInSheet/Build/Intermediates.noindex/ArchiveIntermediates/KitchenSignInSheet/BuildProductsPath/MessagesApplicationExtensionSupport",
+          "MESSAGES_APPLICATION_SUPPORT_FOLDER_PATH" : "/Users/skyhd/Documents/xcode/CoopSignIn/DerivedData/KitchenSignInSheet/Build/Intermediates.noindex/ArchiveIntermediates/KitchenSignInSheet/BuildProductsPath/MessagesApplicationSupport",
+          "OBJROOT" : "/Users/skyhd/Documents/xcode/CoopSignIn/DerivedData/KitchenSignInSheet/Build/Intermediates.noindex/ArchiveIntermediates/KitchenSignInSheet/IntermediateBuildFilesPath",
+          "SHARED_PRECOMPS_DIR" : "/Users/skyhd/Documents/xcode/CoopSignIn/DerivedData/KitchenSignInSheet/Build/Intermediates.noindex/ArchiveIntermediates/KitchenSignInSheet/PrecompiledHeaders",
+          "SWIFT_STDLIB_TOOL_UNSIGNED_DESTINATION_DIR" : "/Users/skyhd/Documents/xcode/CoopSignIn/DerivedData/KitchenSignInSheet/Build/Intermediates.noindex/ArchiveIntermediates/KitchenSignInSheet/BuildProductsPath/SwiftSupport",
+          "SYMROOT" : "/Users/skyhd/Documents/xcode/CoopSignIn/DerivedData/KitchenSignInSheet/Build/Intermediates.noindex/ArchiveIntermediates/KitchenSignInSheet/BuildProductsPath",
+          "WATCHKIT_2_SUPPORT_FOLDER_PATH" : "/Users/skyhd/Documents/xcode/CoopSignIn/DerivedData/KitchenSignInSheet/Build/Intermediates.noindex/ArchiveIntermediates/KitchenSignInSheet/BuildProductsPath/WatchKitSupport2"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "archive",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

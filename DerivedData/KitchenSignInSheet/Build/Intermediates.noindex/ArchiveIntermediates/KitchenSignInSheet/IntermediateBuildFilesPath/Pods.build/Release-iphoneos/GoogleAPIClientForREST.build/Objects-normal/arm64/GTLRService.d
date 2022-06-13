@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/skyhd/Documents/xcode/CoopSignIn/Pods/GoogleAPIClientForREST/Source/Objects/GTLRService.m \
+  /Users/skyhd/Documents/xcode/CoopSignIn/DerivedData/KitchenSignInSheet/Build/Intermediates.noindex/ArchiveIntermediates/KitchenSignInSheet/BuildProductsPath/Release-iphoneos/GoogleAPIClientForREST/GoogleAPIClientForREST.framework/Modules/module.modulemap \
+  /Users/skyhd/Documents/xcode/CoopSignIn/Pods/Target\ Support\ Files/GoogleAPIClientForREST/GoogleAPIClientForREST-prefix.pch \
+  /Users/skyhd/Documents/xcode/CoopSignIn/Pods/GoogleAPIClientForREST/Source/Objects/GTLRService.h \
+  /Users/skyhd/Documents/xcode/CoopSignIn/Pods/GoogleAPIClientForREST/Source/GTLRDefines.h \
+  /Users/skyhd/Documents/xcode/CoopSignIn/Pods/GoogleAPIClientForREST/Source/Objects/GTLRBatchQuery.h \
+  /Users/skyhd/Documents/xcode/CoopSignIn/Pods/GoogleAPIClientForREST/Source/Objects/GTLRQuery.h \
+  /Users/skyhd/Documents/xcode/CoopSignIn/Pods/GoogleAPIClientForREST/Source/Objects/GTLRObject.h \
+  /Users/skyhd/Documents/xcode/CoopSignIn/Pods/GoogleAPIClientForREST/Source/Objects/GTLRDateTime.h \
+  /Users/skyhd/Documents/xcode/CoopSignIn/Pods/GoogleAPIClientForREST/Source/Objects/GTLRDuration.h \
+  /Users/skyhd/Documents/xcode/CoopSignIn/Pods/GoogleAPIClientForREST/Source/Objects/GTLRUploadParameters.h \
+  /Users/skyhd/Documents/xcode/CoopSignIn/Pods/GoogleAPIClientForREST/Source/Objects/GTLRBatchResult.h \
+  /Users/skyhd/Documents/xcode/CoopSignIn/Pods/GoogleAPIClientForREST/Source/Objects/GTLRErrorObject.h \
+  /Users/skyhd/Documents/xcode/CoopSignIn/Pods/GoogleAPIClientForREST/Source/Utilities/GTLRFramework.h \
+  /Users/skyhd/Documents/xcode/CoopSignIn/Pods/GoogleAPIClientForREST/Source/Utilities/GTLRURITemplate.h \
+  /Users/skyhd/Documents/xcode/CoopSignIn/Pods/GoogleAPIClientForREST/Source/Utilities/GTLRUtilities.h \
+  /Users/skyhd/Documents/xcode/CoopSignIn/DerivedData/KitchenSignInSheet/Build/Intermediates.noindex/ArchiveIntermediates/KitchenSignInSheet/BuildProductsPath/Release-iphoneos/GTMSessionFetcher/GTMSessionFetcher.framework/Modules/module.modulemap \
+  /Users/skyhd/Documents/xcode/CoopSignIn/Pods/GTMSessionFetcher/Source/GTMReadMonitorInputStream.h \
+  /Users/skyhd/Documents/xcode/CoopSignIn/Pods/GTMSessionFetcher/Source/GTMMIMEDocument.h \
+  /Users/skyhd/Documents/xcode/CoopSignIn/Pods/GTMSessionFetcher/Source/GTMGatherInputStream.h \
+  /Users/skyhd/Documents/xcode/CoopSignIn/Pods/GTMSessionFetcher/Source/GTMSessionUploadFetcher.h \
+  /Users/skyhd/Documents/xcode/CoopSignIn/Pods/GTMSessionFetcher/Source/GTMSessionFetcherService.h \
+  /Users/skyhd/Documents/xcode/CoopSignIn/Pods/GTMSessionFetcher/Source/GTMSessionFetcherLogging.h \
+  /Users/skyhd/Documents/xcode/CoopSignIn/Pods/GTMSessionFetcher/Source/GTMSessionFetcher.h \
+  /Users/skyhd/Documents/xcode/CoopSignIn/Pods/Target\ Support\ Files/GTMSessionFetcher/GTMSessionFetcher-umbrella.h

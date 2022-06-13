@@ -1,0 +1,14 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/skyhd/Documents/xcode/CoopSignIn/DerivedData/KitchenSignInSheet/Index/Build/Products/Debug-iphoneos/SpreadsheetView/SpreadsheetView.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/skyhd/Documents/xcode/CoopSignIn/DerivedData/KitchenSignInSheet/Index/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SpreadsheetView.build/unextended-module.modulemap",
+    }]
+  }]
+}

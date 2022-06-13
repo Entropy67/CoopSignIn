@@ -1,0 +1,6 @@
+framework module Pods_KitchenSignInSheetTests {
+  umbrella header "Pods-KitchenSignInSheetTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

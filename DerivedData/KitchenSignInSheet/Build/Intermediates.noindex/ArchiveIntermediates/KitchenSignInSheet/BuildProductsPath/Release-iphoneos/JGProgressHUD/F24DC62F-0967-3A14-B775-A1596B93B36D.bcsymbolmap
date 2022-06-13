@@ -1,0 +1,929 @@
+BCSymbolMap Version: 2.0
+Apple clang version 13.1.6 (clang-1316.0.21.2)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.sdk
+iPhoneOS15.4.sdk
+/Users/skyhd/Documents/xcode/CoopSignIn/DerivedData/KitchenSignInSheet/Build/Intermediates.noindex/ArchiveIntermediates/KitchenSignInSheet/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/JGProgressHUD.build/DerivedSources/JGProgressHUD_vers.c
+/Users/skyhd/Documents/xcode/CoopSignIn/Pods
++[JGProgressHUD keyboardFrameWillChange:]
++[JGProgressHUD keyboardFrameDidChange:]
++[JGProgressHUD keyboardDidHide]
++[JGProgressHUD load]
++[JGProgressHUD currentKeyboardFrame]
+-[JGProgressHUD init]
+-[JGProgressHUD initWithFrame:]
+-[JGProgressHUD initWithStyle:]
++[JGProgressHUD progressHUDWithStyle:]
+-[JGProgressHUD initWithAutomaticStyle]
++[JGProgressHUD progressHUDWithAutomaticStyle]
+-[JGProgressHUD setHUDViewFrameCenterWithSize:insetViewFrame:]
+___62-[JGProgressHUD setHUDViewFrameCenterWithSize:insetViewFrame:]_block_invoke
+___copy_helper_block_e4_20s
+___destroy_helper_block_e4_20s
+-[JGProgressHUD updateShadowViewMask]
+-[JGProgressHUD layoutHUD]
+___26-[JGProgressHUD layoutHUD]_block_invoke
+-[JGProgressHUD insetFrameForView:]
+-[JGProgressHUD applyCornerRadius]
+-[JGProgressHUD cleanUpAfterPresentation]
+-[JGProgressHUD showInView:]
+-[JGProgressHUD layoutSubviews]
+-[JGProgressHUD showInView:animated:]
+-[JGProgressHUD showInView:animated:afterDelay:]
+___48-[JGProgressHUD showInView:animated:afterDelay:]_block_invoke
+___copy_helper_block_e4_20s24w
+___destroy_helper_block_e4_20s24w
+-[JGProgressHUD cleanUpAfterDismissal]
+-[JGProgressHUD dismiss]
+-[JGProgressHUD dismissAnimated:]
+-[JGProgressHUD dismissAfterDelay:]
+-[JGProgressHUD dismissAfterDelay:animated:]
+-[JGProgressHUD dismissAfterDelay:animated:completion:]
+___55-[JGProgressHUD dismissAfterDelay:animated:completion:]_block_invoke
+___copy_helper_block_e4_20b24s28w
+___destroy_helper_block_e4_20s24s28w
+-[JGProgressHUD performAfterDismiss:]
+-[JGProgressHUD tapped:]
+-[JGProgressHUD keyboardFrameChanged:]
+___38-[JGProgressHUD keyboardFrameChanged:]_block_invoke
+-[JGProgressHUD updateMotionOnHUDView]
+-[JGProgressHUD animationDidFinish:]
+-[JGProgressHUD isVisible]
+-[JGProgressHUD blurView]
+-[JGProgressHUD vibrancyView]
+-[JGProgressHUD contentView]
+-[JGProgressHUD textLabel]
+-[JGProgressHUD detailTextLabel]
+-[JGProgressHUD animation]
+-[JGProgressHUD setStyle:]
+-[JGProgressHUD setCornerRadius:]
+-[JGProgressHUD setShadow:]
+-[JGProgressHUD setAnimation:]
+-[JGProgressHUD setParallaxMode:]
+-[JGProgressHUD setPosition:]
+-[JGProgressHUD setSquare:]
+-[JGProgressHUD setThick:]
+-[JGProgressHUD setVibrancyEnabled:]
+-[JGProgressHUD setIndicatorView:]
+-[JGProgressHUD setEffectiveIndicatorView:]
+___43-[JGProgressHUD setEffectiveIndicatorView:]_block_invoke
+___copy_helper_block_e4_20s24s
+___destroy_helper_block_e4_20s24s
+-[JGProgressHUD layoutMarginsDidChange]
+-[JGProgressHUD setMarginInsets:]
+-[JGProgressHUD marginInsets]
+-[JGProgressHUD setContentInsets:]
+-[JGProgressHUD setProgress:]
+-[JGProgressHUD setProgress:animated:]
+-[JGProgressHUD traitCollectionDidChange:]
+-[JGProgressHUD hitTest:withEvent:]
+-[JGProgressHUD observeValueForKeyPath:ofObject:change:context:]
+-[JGProgressHUD dealloc]
+-[JGProgressHUD removeObservers]
+-[JGProgressHUD HUDView]
+-[JGProgressHUD indicatorView]
+-[JGProgressHUD style]
+-[JGProgressHUD targetView]
+-[JGProgressHUD delegate]
+-[JGProgressHUD setDelegate:]
+-[JGProgressHUD shadow]
+-[JGProgressHUD position]
+-[JGProgressHUD interactionType]
+-[JGProgressHUD setInteractionType:]
+-[JGProgressHUD parallaxMode]
+-[JGProgressHUD square]
+-[JGProgressHUD vibrancyEnabled]
+-[JGProgressHUD cornerRadius]
+-[JGProgressHUD contentInsets]
+-[JGProgressHUD layoutChangeAnimationDuration]
+-[JGProgressHUD setLayoutChangeAnimationDuration:]
+-[JGProgressHUD progress]
+-[JGProgressHUD minimumDisplayTime]
+-[JGProgressHUD setMinimumDisplayTime:]
+-[JGProgressHUD voiceOverEnabled]
+-[JGProgressHUD setVoiceOverEnabled:]
+-[JGProgressHUD tapOnHUDViewBlock]
+-[JGProgressHUD setTapOnHUDViewBlock:]
+-[JGProgressHUD tapOutsideBlock]
+-[JGProgressHUD setTapOutsideBlock:]
+-[JGProgressHUD thick]
+-[JGProgressHUD effectiveIndicatorView]
+-[JGProgressHUD .cxx_destruct]
++[JGProgressHUD(HUDManagement) allProgressHUDsInView:]
++[JGProgressHUD(HUDManagement) _allProgressHUDsInViewHierarchy:]
++[JGProgressHUD(HUDManagement) allProgressHUDsInViewHierarchy:]
+___clang_at_available_requires_core_foundation_framework
+_keyboardFrame
+_OBJC_SELECTOR_REFERENCES_
+_OBJC_SELECTOR_REFERENCES_.2
+_OBJC_SELECTOR_REFERENCES_.4
+_OBJC_CLASSLIST_REFERENCES_$_
+_OBJC_SELECTOR_REFERENCES_.6
+_OBJC_SELECTOR_REFERENCES_.8
+_OBJC_SELECTOR_REFERENCES_.10
+_OBJC_SELECTOR_REFERENCES_.12
+_OBJC_SELECTOR_REFERENCES_.14
+_OBJC_SELECTOR_REFERENCES_.16
+_OBJC_SELECTOR_REFERENCES_.18
+_OBJC_IVAR_$_JGProgressHUD._style
+_OBJC_IVAR_$_JGProgressHUD._voiceOverEnabled
+_OBJC_IVAR_$_JGProgressHUD._automaticStyle
+_OBJC_CLASSLIST_REFERENCES_$_.19
+_OBJC_SELECTOR_REFERENCES_.21
+_OBJC_IVAR_$_JGProgressHUD._HUDView
+_OBJC_CLASSLIST_REFERENCES_$_.22
+_OBJC_SELECTOR_REFERENCES_.24
+_OBJC_SELECTOR_REFERENCES_.26
+_OBJC_SELECTOR_REFERENCES_.28
+_OBJC_SELECTOR_REFERENCES_.30
+_OBJC_IVAR_$_JGProgressHUD._blurViewContainer
+_OBJC_SELECTOR_REFERENCES_.32
+_OBJC_IVAR_$_JGProgressHUD._shadowView
+_OBJC_SELECTOR_REFERENCES_.34
+_OBJC_SELECTOR_REFERENCES_.36
+_OBJC_SELECTOR_REFERENCES_.38
+_OBJC_SELECTOR_REFERENCES_.40
+_OBJC_SELECTOR_REFERENCES_.42
+_OBJC_CLASSLIST_REFERENCES_$_.43
+_OBJC_IVAR_$_JGProgressHUD._shadowMaskLayer
+_OBJC_SELECTOR_REFERENCES_.45
+_OBJC_SELECTOR_REFERENCES_.47
+_OBJC_SELECTOR_REFERENCES_.49
+_OBJC_SELECTOR_REFERENCES_.51
+_OBJC_SELECTOR_REFERENCES_.53
+_OBJC_CLASSLIST_REFERENCES_$_.54
+_OBJC_IVAR_$_JGProgressHUD._indicatorView
+_OBJC_IVAR_$_JGProgressHUD._effectiveIndicatorView
+_OBJC_SELECTOR_REFERENCES_.56
+_OBJC_SELECTOR_REFERENCES_.58
+_OBJC_SELECTOR_REFERENCES_.60
+_OBJC_SELECTOR_REFERENCES_.62
+_OBJC_SELECTOR_REFERENCES_.64
+_OBJC_SELECTOR_REFERENCES_.66
+_OBJC_SELECTOR_REFERENCES_.68
+_OBJC_SELECTOR_REFERENCES_.70
+_OBJC_CLASSLIST_REFERENCES_$_.71
+_OBJC_IVAR_$_JGProgressHUD._dismissActions
+_OBJC_CLASSLIST_REFERENCES_$_.72
+_OBJC_SELECTOR_REFERENCES_.74
+_OBJC_SELECTOR_REFERENCES_.76
+_OBJC_SELECTOR_REFERENCES_.78
+_OBJC_SELECTOR_REFERENCES_.80
+_OBJC_CLASSLIST_REFERENCES_$_.81
+_OBJC_SELECTOR_REFERENCES_.83
+_OBJC_SELECTOR_REFERENCES_.85
+_OBJC_SELECTOR_REFERENCES_.87
+_OBJC_SELECTOR_REFERENCES_.89
+_OBJC_SELECTOR_REFERENCES_.91
+_OBJC_SELECTOR_REFERENCES_.93
+_OBJC_SELECTOR_REFERENCES_.95
+_OBJC_SELECTOR_REFERENCES_.97
+_OBJC_SELECTOR_REFERENCES_.99
+_OBJC_SELECTOR_REFERENCES_.101
+___block_descriptor_56_e4_20s_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.103
+_OBJC_SELECTOR_REFERENCES_.105
+_OBJC_SELECTOR_REFERENCES_.107
+_OBJC_CLASSLIST_REFERENCES_$_.108
+_OBJC_SELECTOR_REFERENCES_.110
+_OBJC_SELECTOR_REFERENCES_.112
+_OBJC_SELECTOR_REFERENCES_.114
+_OBJC_SELECTOR_REFERENCES_.116
+_OBJC_SELECTOR_REFERENCES_.119
+_OBJC_CLASSLIST_REFERENCES_$_.120
+_OBJC_SELECTOR_REFERENCES_.122
+_OBJC_SELECTOR_REFERENCES_.124
+_OBJC_SELECTOR_REFERENCES_.126
+_OBJC_SELECTOR_REFERENCES_.128
+_OBJC_SELECTOR_REFERENCES_.130
+_OBJC_CLASSLIST_REFERENCES_$_.131
+_OBJC_SELECTOR_REFERENCES_.135
+_OBJC_SELECTOR_REFERENCES_.137
+_OBJC_SELECTOR_REFERENCES_.139
+_OBJC_SELECTOR_REFERENCES_.141
+_OBJC_SELECTOR_REFERENCES_.143
+_OBJC_SELECTOR_REFERENCES_.145
+_OBJC_IVAR_$_JGProgressHUD._transitioning
+_OBJC_IVAR_$_JGProgressHUD._updateAfterAppear
+_OBJC_IVAR_$_JGProgressHUD._targetView
+_OBJC_SELECTOR_REFERENCES_.147
+_OBJC_SELECTOR_REFERENCES_.149
+_OBJC_IVAR_$_JGProgressHUD._textLabel
+_OBJC_SELECTOR_REFERENCES_.151
+_OBJC_SELECTOR_REFERENCES_.153
+_OBJC_SELECTOR_REFERENCES_.155
+_OBJC_SELECTOR_REFERENCES_.157
+_OBJC_IVAR_$_JGProgressHUD._detailTextLabel
+_OBJC_SELECTOR_REFERENCES_.159
+___block_descriptor_72_e4_20s_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.161
+_OBJC_SELECTOR_REFERENCES_.163
+_OBJC_SELECTOR_REFERENCES_.165
+_OBJC_SELECTOR_REFERENCES_.167
+_OBJC_SELECTOR_REFERENCES_.169
+_OBJC_SELECTOR_REFERENCES_.171
+_OBJC_SELECTOR_REFERENCES_.173
+_OBJC_IVAR_$_JGProgressHUD._displayTimestamp
+_OBJC_IVAR_$_JGProgressHUD._effectiveIndicatorViewNeedsUpdate
+_OBJC_SELECTOR_REFERENCES_.175
+_OBJC_SELECTOR_REFERENCES_.177
+_OBJC_SELECTOR_REFERENCES_.179
+_OBJC_SELECTOR_REFERENCES_.181
+_OBJC_SELECTOR_REFERENCES_.183
+_OBJC_SELECTOR_REFERENCES_.185
+_OBJC_SELECTOR_REFERENCES_.187
+_OBJC_IVAR_$_JGProgressHUD._dismissAfterTransitionFinished
+_OBJC_IVAR_$_JGProgressHUD._dismissAfterTransitionFinishedWithAnimation
+_OBJC_SELECTOR_REFERENCES_.189
+_OBJC_SELECTOR_REFERENCES_.191
+_OBJC_SELECTOR_REFERENCES_.193
+_OBJC_SELECTOR_REFERENCES_.195
+_OBJC_SELECTOR_REFERENCES_.197
+_OBJC_SELECTOR_REFERENCES_.199
+_OBJC_CLASSLIST_REFERENCES_$_.200
+_OBJC_SELECTOR_REFERENCES_.202
+_OBJC_SELECTOR_REFERENCES_.204
+_OBJC_SELECTOR_REFERENCES_.206
+_OBJC_SELECTOR_REFERENCES_.208
+_OBJC_SELECTOR_REFERENCES_.210
+_OBJC_SELECTOR_REFERENCES_.212
+_OBJC_SELECTOR_REFERENCES_.214
+_OBJC_SELECTOR_REFERENCES_.216
+_OBJC_IVAR_$_JGProgressHUD._displayBlock
+_OBJC_SELECTOR_REFERENCES_.218
+___block_descriptor_29_e4_20s24w_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.220
+_OBJC_SELECTOR_REFERENCES_.222
+_OBJC_SELECTOR_REFERENCES_.224
+_OBJC_SELECTOR_REFERENCES_.226
+_OBJC_SELECTOR_REFERENCES_.228
+_OBJC_SELECTOR_REFERENCES_.230
+_OBJC_SELECTOR_REFERENCES_.232
+_OBJC_SELECTOR_REFERENCES_.234
+_OBJC_SELECTOR_REFERENCES_.236
+_OBJC_SELECTOR_REFERENCES_.238
+_OBJC_SELECTOR_REFERENCES_.240
+_OBJC_SELECTOR_REFERENCES_.242
+___block_descriptor_33_e4_20bs24s28w_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.244
+_OBJC_SELECTOR_REFERENCES_.246
+_OBJC_SELECTOR_REFERENCES_.248
+_OBJC_SELECTOR_REFERENCES_.250
+_OBJC_SELECTOR_REFERENCES_.252
+_OBJC_SELECTOR_REFERENCES_.254
+___block_descriptor_24_e4_20s_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.256
+_OBJC_SELECTOR_REFERENCES_.258
+_OBJC_SELECTOR_REFERENCES_.260
+_OBJC_SELECTOR_REFERENCES_.262
+_OBJC_CLASSLIST_REFERENCES_$_.263
+_OBJC_SELECTOR_REFERENCES_.265
+_OBJC_SELECTOR_REFERENCES_.267
+_OBJC_CLASSLIST_REFERENCES_$_.268
+_OBJC_SELECTOR_REFERENCES_.272
+_OBJC_CLASSLIST_REFERENCES_$_.273
+_OBJC_SELECTOR_REFERENCES_.275
+_OBJC_SELECTOR_REFERENCES_.277
+_OBJC_SELECTOR_REFERENCES_.279
+_OBJC_SELECTOR_REFERENCES_.283
+_OBJC_IVAR_$_JGProgressHUD._blurView
+_OBJC_SELECTOR_REFERENCES_.285
+_OBJC_CLASSLIST_REFERENCES_$_.286
+_OBJC_SELECTOR_REFERENCES_.288
+_OBJC_CLASSLIST_REFERENCES_$_.289
+_OBJC_SELECTOR_REFERENCES_.291
+_OBJC_IVAR_$_JGProgressHUD._vibrancyView
+_OBJC_CLASSLIST_REFERENCES_$_.292
+_OBJC_SELECTOR_REFERENCES_.294
+_OBJC_SELECTOR_REFERENCES_.296
+_OBJC_IVAR_$_JGProgressHUD._contentView
+_OBJC_CLASSLIST_REFERENCES_$_.297
+_OBJC_SELECTOR_REFERENCES_.299
+_OBJC_SELECTOR_REFERENCES_.301
+_OBJC_SELECTOR_REFERENCES_.303
+_OBJC_SELECTOR_REFERENCES_.305
+_OBJC_CLASSLIST_REFERENCES_$_.306
+_OBJC_SELECTOR_REFERENCES_.308
+_OBJC_SELECTOR_REFERENCES_.310
+_OBJC_SELECTOR_REFERENCES_.312
+_OBJC_SELECTOR_REFERENCES_.316
+_OBJC_SELECTOR_REFERENCES_.322
+_OBJC_SELECTOR_REFERENCES_.324
+_OBJC_IVAR_$_JGProgressHUD._animation
+_OBJC_CLASSLIST_REFERENCES_$_.325
+_OBJC_SELECTOR_REFERENCES_.327
+_OBJC_SELECTOR_REFERENCES_.329
+_OBJC_SELECTOR_REFERENCES_.331
+_OBJC_SELECTOR_REFERENCES_.333
+_OBJC_IVAR_$_JGProgressHUD._cornerRadius
+_OBJC_SELECTOR_REFERENCES_.335
+_OBJC_IVAR_$_JGProgressHUD._shadow
+_OBJC_SELECTOR_REFERENCES_.337
+_OBJC_SELECTOR_REFERENCES_.339
+_OBJC_SELECTOR_REFERENCES_.341
+_OBJC_SELECTOR_REFERENCES_.343
+_OBJC_SELECTOR_REFERENCES_.345
+_OBJC_SELECTOR_REFERENCES_.347
+_OBJC_SELECTOR_REFERENCES_.349
+_OBJC_IVAR_$_JGProgressHUD._parallaxMode
+_OBJC_IVAR_$_JGProgressHUD._position
+_OBJC_IVAR_$_JGProgressHUD._square
+_OBJC_IVAR_$_JGProgressHUD._thick
+_OBJC_SELECTOR_REFERENCES_.351
+_OBJC_IVAR_$_JGProgressHUD._vibrancyEnabled
+___block_descriptor_28_e4_20s24s_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.353
+_OBJC_IVAR_$_JGProgressHUD._contentInsets
+_OBJC_SELECTOR_REFERENCES_.355
+_OBJC_SELECTOR_REFERENCES_.357
+_OBJC_IVAR_$_JGProgressHUD._progress
+_OBJC_SELECTOR_REFERENCES_.359
+_OBJC_SELECTOR_REFERENCES_.361
+_OBJC_SELECTOR_REFERENCES_.363
+_OBJC_SELECTOR_REFERENCES_.365
+_OBJC_SELECTOR_REFERENCES_.367
+_OBJC_SELECTOR_REFERENCES_.369
+_OBJC_SELECTOR_REFERENCES_.371
+_OBJC_SELECTOR_REFERENCES_.373
+_OBJC_SELECTOR_REFERENCES_.375
+_OBJC_IVAR_$_JGProgressHUD._delegate
+_OBJC_IVAR_$_JGProgressHUD._interactionType
+_OBJC_IVAR_$_JGProgressHUD._layoutChangeAnimationDuration
+_OBJC_IVAR_$_JGProgressHUD._minimumDisplayTime
+_OBJC_IVAR_$_JGProgressHUD._tapOnHUDViewBlock
+_OBJC_IVAR_$_JGProgressHUD._tapOutsideBlock
+__OBJC_$_CLASS_METHODS_JGProgressHUD
+__OBJC_METACLASS_RO_$_JGProgressHUD
+__OBJC_$_INSTANCE_METHODS_JGProgressHUD
+__OBJC_$_INSTANCE_VARIABLES_JGProgressHUD
+__OBJC_$_PROP_LIST_JGProgressHUD
+__OBJC_CLASS_RO_$_JGProgressHUD
+_OBJC_SELECTOR_REFERENCES_.543
+_OBJC_SELECTOR_REFERENCES_.545
+_OBJC_CLASSLIST_REFERENCES_$_.546
+_OBJC_SELECTOR_REFERENCES_.548
+_OBJC_SELECTOR_REFERENCES_.550
+_OBJC_SELECTOR_REFERENCES_.552
+_OBJC_SELECTOR_REFERENCES_.554
+__OBJC_$_CATEGORY_CLASS_METHODS_JGProgressHUD_$_HUDManagement
+__OBJC_$_CATEGORY_JGProgressHUD_$_HUDManagement
+_OBJC_CLASSLIST_REFERENCES_$_.559
+_OBJC_SELECTOR_REFERENCES_.561
+_OBJC_SELECTOR_REFERENCES_.563
+/Users/skyhd/Documents/xcode/CoopSignIn/Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUD.m
+JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUD.m
+JGProgressHUD/JGProgressHUD/JGProgressHUD/include/JGProgressHUD.h
+JGProgressHUDStyleFromUIUserInterfaceStyle
+UIEdgeInsetsEqualToEdgeInsets
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIGeometry.h
+__destroy_helper_block_e4_20s24s
+__copy_helper_block_e4_20s24s
+__43-[JGProgressHUD setEffectiveIndicatorView:]_block_invoke
+__38-[JGProgressHUD keyboardFrameChanged:]_block_invoke
+UIViewAnimationOptionsFromUIViewAnimationCurve
+__destroy_helper_block_e4_20s24s28w
+__copy_helper_block_e4_20b24s28w
+__55-[JGProgressHUD dismissAfterDelay:animated:completion:]_block_invoke
+__destroy_helper_block_e4_20s24w
+__copy_helper_block_e4_20s24w
+__48-[JGProgressHUD showInView:animated:afterDelay:]_block_invoke
+UIEdgeInsetsInsetRect
+__26-[JGProgressHUD layoutHUD]_block_invoke
+JGProgressHUD_CGRectIntegral
+__destroy_helper_block_e4_20s
+__copy_helper_block_e4_20s
+__62-[JGProgressHUD setHUDViewFrameCenterWithSize:insetViewFrame:]_block_invoke
+__OBJC_METACLASS_RO_$_PodsDummy_JGProgressHUD
+__OBJC_CLASS_RO_$_PodsDummy_JGProgressHUD
+/Users/skyhd/Documents/xcode/CoopSignIn/Pods/Target Support Files/JGProgressHUD/JGProgressHUD-dummy.m
++[JGProgressHUDAnimation animation]
+-[JGProgressHUDAnimation show]
+-[JGProgressHUDAnimation hide]
+-[JGProgressHUDAnimation animationFinished]
+-[JGProgressHUDAnimation progressHUD]
+-[JGProgressHUDAnimation setProgressHUD:]
+-[JGProgressHUDAnimation .cxx_destruct]
+__OBJC_$_CLASS_METHODS_JGProgressHUDAnimation
+__OBJC_METACLASS_RO_$_JGProgressHUDAnimation
+__OBJC_$_INSTANCE_METHODS_JGProgressHUDAnimation
+_OBJC_IVAR_$_JGProgressHUDAnimation._presenting
+_OBJC_IVAR_$_JGProgressHUDAnimation._progressHUD
+__OBJC_$_INSTANCE_VARIABLES_JGProgressHUDAnimation
+__OBJC_$_PROP_LIST_JGProgressHUDAnimation
+__OBJC_CLASS_RO_$_JGProgressHUDAnimation
+/Users/skyhd/Documents/xcode/CoopSignIn/Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDAnimation.m
+JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDAnimation.m
+JGProgressHUD/JGProgressHUD/JGProgressHUD/include/JGProgressHUDAnimation.h
+-[JGProgressHUDErrorIndicatorView initWithContentView:]
+-[JGProgressHUDErrorIndicatorView init]
+-[JGProgressHUDErrorIndicatorView updateAccessibility]
+___errorBezierPath_block_invoke
+_OBJC_CLASSLIST_REFERENCES_$_.11
+_OBJC_SELECTOR_REFERENCES_.13
+_OBJC_SELECTOR_REFERENCES_.17
+_OBJC_SELECTOR_REFERENCES_.19
+__OBJC_METACLASS_RO_$_JGProgressHUDErrorIndicatorView
+__OBJC_$_INSTANCE_METHODS_JGProgressHUDErrorIndicatorView
+__OBJC_CLASS_RO_$_JGProgressHUDErrorIndicatorView
+_errorBezierPath.path
+_errorBezierPath.onceToken
+___block_descriptor_20_e5_v4?0l
+___block_literal_global
+_OBJC_CLASSLIST_REFERENCES_$_.25
+_OBJC_SELECTOR_REFERENCES_.27
+_OBJC_SELECTOR_REFERENCES_.29
+_OBJC_SELECTOR_REFERENCES_.31
+_OBJC_SELECTOR_REFERENCES_.33
+_OBJC_SELECTOR_REFERENCES_.35
+_OBJC_SELECTOR_REFERENCES_.37
+/Users/skyhd/Documents/xcode/CoopSignIn/Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDErrorIndicatorView.m
+__errorBezierPath_block_invoke
+JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDErrorIndicatorView.m
+errorBezierPath
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.sdk/usr/include/dispatch/once.h
+-[JGProgressHUDFadeAnimation init]
+-[JGProgressHUDFadeAnimation setAnimationOptions:]
+-[JGProgressHUDFadeAnimation show]
+___34-[JGProgressHUDFadeAnimation show]_block_invoke
+___34-[JGProgressHUDFadeAnimation show]_block_invoke.17
+-[JGProgressHUDFadeAnimation hide]
+___34-[JGProgressHUDFadeAnimation hide]_block_invoke
+___34-[JGProgressHUDFadeAnimation hide]_block_invoke_2
+-[JGProgressHUDFadeAnimation duration]
+-[JGProgressHUDFadeAnimation setDuration:]
+-[JGProgressHUDFadeAnimation animationOptions]
+_OBJC_IVAR_$_JGProgressHUDFadeAnimation._animationOptions
+___block_descriptor_24_e4_20s_e7_v8?0c4l
+_OBJC_SELECTOR_REFERENCES_.22
+_OBJC_IVAR_$_JGProgressHUDFadeAnimation._duration
+__OBJC_METACLASS_RO_$_JGProgressHUDFadeAnimation
+__OBJC_$_INSTANCE_METHODS_JGProgressHUDFadeAnimation
+__OBJC_$_INSTANCE_VARIABLES_JGProgressHUDFadeAnimation
+__OBJC_$_PROP_LIST_JGProgressHUDFadeAnimation
+__OBJC_CLASS_RO_$_JGProgressHUDFadeAnimation
+/Users/skyhd/Documents/xcode/CoopSignIn/Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDFadeAnimation.m
+JGProgressHUD/JGProgressHUD/JGProgressHUD/include/JGProgressHUDFadeAnimation.h
+__34-[JGProgressHUDFadeAnimation hide]_block_invoke_2
+JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDFadeAnimation.m
+__34-[JGProgressHUDFadeAnimation hide]_block_invoke
+__34-[JGProgressHUDFadeAnimation show]_block_invoke.17
+__34-[JGProgressHUDFadeAnimation show]_block_invoke
+-[JGProgressHUDFadeZoomAnimation init]
+-[JGProgressHUDFadeZoomAnimation show]
+___38-[JGProgressHUDFadeZoomAnimation show]_block_invoke
+___38-[JGProgressHUDFadeZoomAnimation show]_block_invoke.25
+___38-[JGProgressHUDFadeZoomAnimation show]_block_invoke_2
+___38-[JGProgressHUDFadeZoomAnimation show]_block_invoke_3
+___38-[JGProgressHUDFadeZoomAnimation show]_block_invoke_4
+-[JGProgressHUDFadeZoomAnimation hide]
+___38-[JGProgressHUDFadeZoomAnimation hide]_block_invoke
+___38-[JGProgressHUDFadeZoomAnimation hide]_block_invoke_2
+___38-[JGProgressHUDFadeZoomAnimation hide]_block_invoke_3
+___38-[JGProgressHUDFadeZoomAnimation hide]_block_invoke_4
+___38-[JGProgressHUDFadeZoomAnimation hide]_block_invoke_5
+-[JGProgressHUDFadeZoomAnimation shrinkAnimationDuaration]
+-[JGProgressHUDFadeZoomAnimation setShrinkAnimationDuaration:]
+-[JGProgressHUDFadeZoomAnimation expandAnimationDuaration]
+-[JGProgressHUDFadeZoomAnimation setExpandAnimationDuaration:]
+-[JGProgressHUDFadeZoomAnimation expandScale]
+-[JGProgressHUDFadeZoomAnimation setExpandScale:]
+_OBJC_SELECTOR_REFERENCES_.20
+_OBJC_IVAR_$_JGProgressHUDFadeZoomAnimation._shrinkAnimationDuaration
+_OBJC_IVAR_$_JGProgressHUDFadeZoomAnimation._expandAnimationDuaration
+_OBJC_IVAR_$_JGProgressHUDFadeZoomAnimation._expandScale
+__OBJC_METACLASS_RO_$_JGProgressHUDFadeZoomAnimation
+__OBJC_$_INSTANCE_METHODS_JGProgressHUDFadeZoomAnimation
+__OBJC_$_INSTANCE_VARIABLES_JGProgressHUDFadeZoomAnimation
+__OBJC_$_PROP_LIST_JGProgressHUDFadeZoomAnimation
+__OBJC_CLASS_RO_$_JGProgressHUDFadeZoomAnimation
+/Users/skyhd/Documents/xcode/CoopSignIn/Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDFadeZoomAnimation.m
+JGProgressHUD/JGProgressHUD/JGProgressHUD/include/JGProgressHUDFadeZoomAnimation.h
+__38-[JGProgressHUDFadeZoomAnimation hide]_block_invoke_5
+JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDFadeZoomAnimation.m
+__38-[JGProgressHUDFadeZoomAnimation hide]_block_invoke_4
+__38-[JGProgressHUDFadeZoomAnimation hide]_block_invoke_3
+__38-[JGProgressHUDFadeZoomAnimation hide]_block_invoke_2
+__38-[JGProgressHUDFadeZoomAnimation hide]_block_invoke
+__38-[JGProgressHUDFadeZoomAnimation show]_block_invoke_4
+__38-[JGProgressHUDFadeZoomAnimation show]_block_invoke_3
+__38-[JGProgressHUDFadeZoomAnimation show]_block_invoke_2
+__38-[JGProgressHUDFadeZoomAnimation show]_block_invoke.25
+__38-[JGProgressHUDFadeZoomAnimation show]_block_invoke
+-[JGProgressHUDImageIndicatorView initWithImage:]
+-[JGProgressHUDImageIndicatorView setUpForHUDStyle:vibrancyEnabled:]
+-[JGProgressHUDImageIndicatorView setTintColor:]
+_OBJC_IVAR_$_JGProgressHUDImageIndicatorView._customizedTintColor
+_OBJC_CLASSLIST_REFERENCES_$_.5
+_OBJC_SELECTOR_REFERENCES_.7
+_OBJC_SELECTOR_REFERENCES_.9
+_OBJC_SELECTOR_REFERENCES_.11
+__OBJC_METACLASS_RO_$_JGProgressHUDImageIndicatorView
+__OBJC_$_INSTANCE_METHODS_JGProgressHUDImageIndicatorView
+__OBJC_$_INSTANCE_VARIABLES_JGProgressHUDImageIndicatorView
+__OBJC_CLASS_RO_$_JGProgressHUDImageIndicatorView
+/Users/skyhd/Documents/xcode/CoopSignIn/Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDImageIndicatorView.m
+JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDImageIndicatorView.m
+-[JGProgressHUDIndeterminateIndicatorView init]
+-[JGProgressHUDIndeterminateIndicatorView initWithHUDStyle:]
+-[JGProgressHUDIndeterminateIndicatorView setUpForHUDStyle:vibrancyEnabled:]
+-[JGProgressHUDIndeterminateIndicatorView setColor:]
+-[JGProgressHUDIndeterminateIndicatorView updateAccessibility]
+_OBJC_CLASSLIST_REFERENCES_$_.9
+_OBJC_SELECTOR_REFERENCES_.15
+_OBJC_CLASSLIST_REFERENCES_$_.18
+__OBJC_METACLASS_RO_$_JGProgressHUDIndeterminateIndicatorView
+__OBJC_$_INSTANCE_METHODS_JGProgressHUDIndeterminateIndicatorView
+__OBJC_CLASS_RO_$_JGProgressHUDIndeterminateIndicatorView
+/Users/skyhd/Documents/xcode/CoopSignIn/Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDIndeterminateIndicatorView.m
+JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDIndeterminateIndicatorView.m
+-[JGProgressHUDIndicatorView initWithFrame:]
+-[JGProgressHUDIndicatorView init]
+-[JGProgressHUDIndicatorView initWithContentView:]
+-[JGProgressHUDIndicatorView setUpForHUDStyle:vibrancyEnabled:]
++[JGProgressHUDIndicatorView runBlock:]
+-[JGProgressHUDIndicatorView setNeedsAccessibilityUpdate]
+___57-[JGProgressHUDIndicatorView setNeedsAccessibilityUpdate]_block_invoke
+-[JGProgressHUDIndicatorView updateAccessibilityIfNeeded]
+-[JGProgressHUDIndicatorView updateAccessibility]
+-[JGProgressHUDIndicatorView setProgress:]
+-[JGProgressHUDIndicatorView setProgress:animated:]
+-[JGProgressHUDIndicatorView progress]
+-[JGProgressHUDIndicatorView contentView]
+-[JGProgressHUDIndicatorView .cxx_destruct]
+_OBJC_IVAR_$_JGProgressHUDIndicatorView._contentView
+_OBJC_IVAR_$_JGProgressHUDIndicatorView._accessibilityUpdateScheduled
+_OBJC_IVAR_$_JGProgressHUDIndicatorView._progress
+__OBJC_$_CLASS_METHODS_JGProgressHUDIndicatorView
+__OBJC_METACLASS_RO_$_JGProgressHUDIndicatorView
+__OBJC_$_INSTANCE_METHODS_JGProgressHUDIndicatorView
+__OBJC_$_INSTANCE_VARIABLES_JGProgressHUDIndicatorView
+__OBJC_$_PROP_LIST_JGProgressHUDIndicatorView
+__OBJC_CLASS_RO_$_JGProgressHUDIndicatorView
+_OBJC_CLASSLIST_REFERENCES_$_.65
+_OBJC_SELECTOR_REFERENCES_.67
+_OBJC_CLASSLIST_REFERENCES_$_.69
+_OBJC_SELECTOR_REFERENCES_.71
+/Users/skyhd/Documents/xcode/CoopSignIn/Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDIndicatorView.m
+JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDIndicatorView.m
+JGProgressHUD/JGProgressHUD/JGProgressHUD/include/JGProgressHUDIndicatorView.h
+__57-[JGProgressHUDIndicatorView setNeedsAccessibilityUpdate]_block_invoke
+runOnNextRunLoop
+CGRectMake
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
++[JGProgressHUDPieIndicatorLayer needsDisplayForKey:]
+-[JGProgressHUDPieIndicatorLayer actionForKey:]
+-[JGProgressHUDPieIndicatorLayer drawInContext:]
+-[JGProgressHUDPieIndicatorView init]
+-[JGProgressHUDPieIndicatorView initWithHUDStyle:]
+-[JGProgressHUDPieIndicatorView initWithContentView:]
+-[JGProgressHUDPieIndicatorView setColor:]
+-[JGProgressHUDPieIndicatorView setFillColor:]
+-[JGProgressHUDPieIndicatorView setProgress:animated:]
+-[JGProgressHUDPieIndicatorView setUpForHUDStyle:vibrancyEnabled:]
++[JGProgressHUDPieIndicatorView layerClass]
+-[JGProgressHUDPieIndicatorView color]
+-[JGProgressHUDPieIndicatorView fillColor]
+-[JGProgressHUDPieIndicatorView .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.15
+_OBJC_SELECTOR_REFERENCES_.39
+_OBJC_SELECTOR_REFERENCES_.41
+_OBJC_SELECTOR_REFERENCES_.43
+__OBJC_$_CLASS_METHODS_JGProgressHUDPieIndicatorLayer
+__OBJC_METACLASS_RO_$_JGProgressHUDPieIndicatorLayer
+__OBJC_$_INSTANCE_METHODS_JGProgressHUDPieIndicatorLayer
+__OBJC_$_PROP_LIST_JGProgressHUDPieIndicatorLayer
+__OBJC_CLASS_RO_$_JGProgressHUDPieIndicatorLayer
+_OBJC_SELECTOR_REFERENCES_.57
+_OBJC_CLASSLIST_REFERENCES_$_.58
+_OBJC_SELECTOR_REFERENCES_.73
+_OBJC_SELECTOR_REFERENCES_.75
+_OBJC_SELECTOR_REFERENCES_.77
+_OBJC_SELECTOR_REFERENCES_.79
+_OBJC_IVAR_$_JGProgressHUDPieIndicatorView._color
+_OBJC_IVAR_$_JGProgressHUDPieIndicatorView._fillColor
+_OBJC_SELECTOR_REFERENCES_.81
+_OBJC_CLASSLIST_REFERENCES_$_.82
+_OBJC_SELECTOR_REFERENCES_.84
+_OBJC_SELECTOR_REFERENCES_.86
+_OBJC_SELECTOR_REFERENCES_.88
+_OBJC_SELECTOR_REFERENCES_.90
+_OBJC_SELECTOR_REFERENCES_.92
+_OBJC_SELECTOR_REFERENCES_.94
+_OBJC_SELECTOR_REFERENCES_.96
+_OBJC_CLASSLIST_REFERENCES_$_.97
+__OBJC_$_CLASS_METHODS_JGProgressHUDPieIndicatorView
+__OBJC_METACLASS_RO_$_JGProgressHUDPieIndicatorView
+__OBJC_$_INSTANCE_METHODS_JGProgressHUDPieIndicatorView
+__OBJC_$_INSTANCE_VARIABLES_JGProgressHUDPieIndicatorView
+__OBJC_$_PROP_LIST_JGProgressHUDPieIndicatorView
+__OBJC_CLASS_RO_$_JGProgressHUDPieIndicatorView
+/Users/skyhd/Documents/xcode/CoopSignIn/Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDPieIndicatorView.m
+JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDPieIndicatorView.m
+JGProgressHUD/JGProgressHUD/JGProgressHUD/include/JGProgressHUDPieIndicatorView.h
++[JGProgressHUDRingIndicatorLayer needsDisplayForKey:]
+-[JGProgressHUDRingIndicatorLayer actionForKey:]
+-[JGProgressHUDRingIndicatorLayer drawInContext:]
+-[JGProgressHUDRingIndicatorView init]
+-[JGProgressHUDRingIndicatorView initWithHUDStyle:]
+-[JGProgressHUDRingIndicatorView initWithContentView:]
+-[JGProgressHUDRingIndicatorView setRoundProgressLine:]
+-[JGProgressHUDRingIndicatorView setRingColor:]
+-[JGProgressHUDRingIndicatorView setRingBackgroundColor:]
+-[JGProgressHUDRingIndicatorView setRingWidth:]
+-[JGProgressHUDRingIndicatorView setProgress:animated:]
+-[JGProgressHUDRingIndicatorView setUpForHUDStyle:vibrancyEnabled:]
++[JGProgressHUDRingIndicatorView layerClass]
+-[JGProgressHUDRingIndicatorView ringBackgroundColor]
+-[JGProgressHUDRingIndicatorView ringColor]
+-[JGProgressHUDRingIndicatorView roundProgressLine]
+-[JGProgressHUDRingIndicatorView ringWidth]
+-[JGProgressHUDRingIndicatorView .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_.23
+_OBJC_CLASSLIST_REFERENCES_$_.35
+__OBJC_$_CLASS_METHODS_JGProgressHUDRingIndicatorLayer
+__OBJC_METACLASS_RO_$_JGProgressHUDRingIndicatorLayer
+__OBJC_$_INSTANCE_METHODS_JGProgressHUDRingIndicatorLayer
+__OBJC_$_PROP_LIST_JGProgressHUDRingIndicatorLayer
+__OBJC_CLASS_RO_$_JGProgressHUDRingIndicatorLayer
+_OBJC_CLASSLIST_REFERENCES_$_.67
+_OBJC_SELECTOR_REFERENCES_.69
+_OBJC_CLASSLIST_REFERENCES_$_.80
+_OBJC_SELECTOR_REFERENCES_.82
+_OBJC_IVAR_$_JGProgressHUDRingIndicatorView._roundProgressLine
+_OBJC_IVAR_$_JGProgressHUDRingIndicatorView._ringColor
+_OBJC_IVAR_$_JGProgressHUDRingIndicatorView._ringBackgroundColor
+_OBJC_IVAR_$_JGProgressHUDRingIndicatorView._ringWidth
+_OBJC_CLASSLIST_REFERENCES_$_.95
+_OBJC_SELECTOR_REFERENCES_.109
+_OBJC_CLASSLIST_REFERENCES_$_.110
+__OBJC_$_CLASS_METHODS_JGProgressHUDRingIndicatorView
+__OBJC_METACLASS_RO_$_JGProgressHUDRingIndicatorView
+__OBJC_$_INSTANCE_METHODS_JGProgressHUDRingIndicatorView
+__OBJC_$_INSTANCE_VARIABLES_JGProgressHUDRingIndicatorView
+__OBJC_$_PROP_LIST_JGProgressHUDRingIndicatorView
+__OBJC_CLASS_RO_$_JGProgressHUDRingIndicatorView
+/Users/skyhd/Documents/xcode/CoopSignIn/Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDRingIndicatorView.m
+JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDRingIndicatorView.m
+JGProgressHUD/JGProgressHUD/JGProgressHUD/include/JGProgressHUDRingIndicatorView.h
++[JGProgressHUDShadow shadowWithColor:offset:radius:opacity:]
+-[JGProgressHUDShadow initWithColor:offset:radius:opacity:]
+-[JGProgressHUDShadow color]
+-[JGProgressHUDShadow offset]
+-[JGProgressHUDShadow radius]
+-[JGProgressHUDShadow opacity]
+-[JGProgressHUDShadow .cxx_destruct]
+__OBJC_$_CLASS_METHODS_JGProgressHUDShadow
+__OBJC_METACLASS_RO_$_JGProgressHUDShadow
+__OBJC_$_INSTANCE_METHODS_JGProgressHUDShadow
+_OBJC_IVAR_$_JGProgressHUDShadow._color
+_OBJC_IVAR_$_JGProgressHUDShadow._radius
+_OBJC_IVAR_$_JGProgressHUDShadow._opacity
+_OBJC_IVAR_$_JGProgressHUDShadow._offset
+__OBJC_$_INSTANCE_VARIABLES_JGProgressHUDShadow
+__OBJC_$_PROP_LIST_JGProgressHUDShadow
+__OBJC_CLASS_RO_$_JGProgressHUDShadow
+/Users/skyhd/Documents/xcode/CoopSignIn/Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDShadow.m
+JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDShadow.m
+JGProgressHUD/JGProgressHUD/JGProgressHUD/include/JGProgressHUDShadow.h
+-[JGProgressHUDSuccessIndicatorView initWithContentView:]
+-[JGProgressHUDSuccessIndicatorView init]
+-[JGProgressHUDSuccessIndicatorView updateAccessibility]
+___successBezierPath_block_invoke
+__OBJC_METACLASS_RO_$_JGProgressHUDSuccessIndicatorView
+__OBJC_$_INSTANCE_METHODS_JGProgressHUDSuccessIndicatorView
+__OBJC_CLASS_RO_$_JGProgressHUDSuccessIndicatorView
+_successBezierPath.path
+_successBezierPath.onceToken
+/Users/skyhd/Documents/xcode/CoopSignIn/Pods/JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDSuccessIndicatorView.m
+__successBezierPath_block_invoke
+JGProgressHUD/JGProgressHUD/JGProgressHUD/JGProgressHUDSuccessIndicatorView.m
+successBezierPath
+__ZL15__ARCLite__loadv
+__ZL30add_image_hook_autoreleasepoolPK11mach_headerl
+__ZL34__arclite_objc_autoreleasePoolPushv
+__ZL33__arclite_objc_autoreleasePoolPopPv
+__ZL19patch_lazy_pointersPK11mach_headerP7patch_tm
+__ZL42__arclite_NSArray_objectAtIndexedSubscriptP7NSArrayP13objc_selectorj
+__ZL53__arclite_NSMutableArray_setObject_atIndexedSubscriptP14NSMutableArrayP13objc_selectorP11objc_objectj
+__ZL46__arclite_NSDictionary_objectForKeyedSubscriptP12NSDictionaryP13objc_selectorP11objc_object
+__ZL47__arclite_NSOrderedSet_objectAtIndexedSubscriptP12NSOrderedSetP13objc_selectorj
+__ZL58__arclite_NSMutableOrderedSet_setObject_atIndexedSubscriptP19NSMutableOrderedSetP13objc_selectorP11objc_objectj
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL18add_image_hook_ARCPK11mach_headerl
+__ZL27__arclite_objc_loadClassrefPP10objc_class
+__ZL36__arclite_object_setInstanceVariableP11objc_objectPKcPv
+__ZL24__arclite_object_setIvarP11objc_objectP9objc_ivarS0_
+__ZL21__arclite_object_copyP11objc_objectm
+__ZL21__arclite_objc_retainP11objc_object
+__ZL26__arclite_objc_retainBlockP11objc_object
+__ZL22__arclite_objc_releaseP11objc_object
+__ZL26__arclite_objc_autoreleaseP11objc_object
+__ZL32__arclite_objc_retainAutoreleaseP11objc_object
+__ZL37__arclite_objc_autoreleaseReturnValueP11objc_object
+__ZL43__arclite_objc_retainAutoreleaseReturnValueP11objc_object
+__ZL44__arclite_objc_retainAutoreleasedReturnValueP11objc_object
+__ZL26__arclite_objc_storeStrongPP11objc_objectS0_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+__ZL23NSAutoreleasePool_class
+__ZZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+__ZGVZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+__OBJC_$_PROTOCOL_INSTANCE_METHODS___ARCLiteIndexedSubscripting__
+__OBJC_$_PROTOCOL_METHOD_TYPES___ARCLiteIndexedSubscripting__
+__OBJC_PROTOCOL_$___ARCLiteIndexedSubscripting__
+__OBJC_LABEL_PROTOCOL_$___ARCLiteIndexedSubscripting__
+__OBJC_PROTOCOL_REFERENCE_$___ARCLiteIndexedSubscripting__
+__OBJC_$_PROTOCOL_INSTANCE_METHODS___ARCLiteKeyedSubscripting__
+__OBJC_$_PROTOCOL_METHOD_TYPES___ARCLiteKeyedSubscripting__
+__OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+__OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+__OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZZL18add_image_hook_ARCPK11mach_headerlE7patches
+__ZGVZL18add_image_hook_ARCPK11mach_headerlE7patches
+_OBJC_SELECTOR_REFERENCES_.55
+_OBJC_SELECTOR_REFERENCES_.59
+__ZL30NSUndoManagerProxy_targetClass
+_OBJC_SELECTOR_REFERENCES_.63
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+_OBJC_SELECTOR_REFERENCES_.111
+_OBJC_SELECTOR_REFERENCES_.113
+_OBJC_SELECTOR_REFERENCES_.115
+_OBJC_SELECTOR_REFERENCES_.117
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ --target=armv7-apple-ios4.3 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -fno-sanitize=vptr -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-objc-interface-ivars -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -D RC_EDM_ONLY_PDI=1 -D RC_EDM_ONLY_PDI=1 -D OBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources-normal/armv7 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/armv7 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=deprecated-declarations -Wno-error=documentation -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=deprecated-declarations -Wno-error=documentation -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.o -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-objc-load-method -Xclang -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -Xclang -clang-vendor-feature=+disableInferNewAvailabilityFromInit -Xclang -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -Xclang -fno-odr-hash-protocols -Xclang -clang-vendor-feature=+enableAggressiveVLAFolding -Xclang -clang-vendor-feature=+revert09abecef7bbf -Xclang -clang-vendor-feature=+thisNoAlignAttr -Xclang -clang-vendor-feature=+thisNoNullAttr -mlinker-version=762 -march=armv7a
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.Internal.sdk
+iPhoneOS15.4.Internal.sdk
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76
+fixStringForCoreData
+source/arclite.mm
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.Internal.sdk/usr/include/_ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+llvm.loop.mustprogress
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_objc_storeStrong
+__arclite_objc_release
+__arclite_objc_retain
+__arclite_objc_retainAutoreleasedReturnValue
+__arclite_objc_retainAutoreleaseReturnValue
+__arclite_objc_autoreleaseReturnValue
+__arclite_objc_retainAutorelease
+__arclite_objc_autorelease
+__arclite_objc_retainBlock
+__arclite_object_copy
+fixupCopiedReferences
+_class_getInstanceStart
+alignedInstanceStart
+__arclite_class_usesAutomaticRetainRelease
+classOrSuperClassesUseARR
+__arclite_object_setIvar
+isScannedOffset
+_ivar_getClass
+__arclite_object_setInstanceVariable
+__arclite_objc_loadClassref
+add_image_hook_ARC
+patch_t<void (id *, id)>
+patch_t<id (id)>
+patch_t<void (id)>
+patch_t<id (id, unsigned long)>
+patch_t<void (id, objc_ivar *, id)>
+patch_t<objc_ivar *(id, const char *, void *)>
+patch_t<Class (Class *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__arclite_NSMutableOrderedSet_setObject_atIndexedSubscript
+__arclite_NSOrderedSet_objectAtIndexedSubscript
+__arclite_NSDictionary_objectForKeyedSubscript
+__arclite_NSMutableArray_setObject_atIndexedSubscript
+__arclite_NSArray_objectAtIndexedSubscript
+patch_lazy_pointers
+__arclite_objc_autoreleasePoolPop
+__arclite_objc_autoreleasePoolPush
+add_image_hook_autoreleasepool
+patch_t<void (void *)>
+patch_t<void *()>
+__ARCLite__load
+install_swiftV1
+replaceMethod
+install_ARC
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter
+install_subscripting
+addMethod
+indexedGetter
+install_autoreleasepool
