@@ -13,6 +13,8 @@ import GTMSessionFetcher
 import JGProgressHUD
 
 
+
+
 class ViewController: SecuredViewController{
     private let spinner = JGProgressHUD(style: .dark)
     
@@ -292,7 +294,7 @@ class ViewController: SecuredViewController{
                             LogManager.writeLog(info: "manually sign-in failed because of duplication for shift \(newShift.name) or maximal capacity exceeded")
                             AlertManager.sendRedAlert(title: AlertMessages.addNewShiftFailed.title, message: AlertMessages.addNewShiftFailed.message, click: "OK", inView: self)
                         }else{
-                            LogManager.writeLog(info: "SignIn: manually sign-in success for shift \(newShift.name). shift information: \(newShift.toString())")
+                            LogManager.writeLog(info: "SignIn: sign-in successful for shift \(newShift.name). shift information: \(newShift.toString())")
                             AlertManager.sendAlert(title: AlertMessages.addNewShiftSuccess.title , message:  AlertMessages.addNewShiftSuccess.message + "\(newShift.name).", click: "OK", inView: self)
                         }
                     }
