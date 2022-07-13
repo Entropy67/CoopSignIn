@@ -5,11 +5,25 @@ I developed an App for chore shift management. Members can check-in/-out through
 Besides, the APP keeps track of the time points and generate no-show or credit report 
 accordingly. It also allows crew managers to manage the schedule by adding/editing/deleting a shift.
 
-## Key module
-The viewController.swift contains the main script that 
-presents the complete sign-in sheet, defines all kinds of managers and trigger all kinds of views. 
+## Usage
+The APP is now available in TestFlight. Feel free to contact me if you want access. It will be published in APP store soon. 
 
-## Controllers
+It has two modes: offline mode and Google drive mode
+
+### Off-line mode
+Everything will be conducted locally within the app. You can register a permanent or one-time shift in the APP. The data will be stored in the local device.
+
+### Google-drive access
+Once sign-in with a Google account, it will work with APIs from Google drive. First, it can locate and download sign-in sheet from the Google drive linked to your account. Second, it will upload the data to  Google drive so that you can review the reports remotely. 
+
+## Modules
+
+### viewController.swift
+The viewController class presents the complete sign-in sheet, 
+defines all kinds of managers and trigger all kinds of views. 
+Everything starts from here.
+
+### Controllers
 Controller folder contains different ViewControllers which control the APP View. 
 - SignInViewController: a view to allow members to sign-in/out
 - AddChoreViewController:  controls a View to allow user to add a permenant chore shift
@@ -21,9 +35,12 @@ Controller folder contains different ViewControllers which control the APP View.
 - EditManagerViewController: an prototype class to edit manager information
 - MemberInfoViewController: a pop-up view to present memmber information
 - SettingViewController: presents a view to allow user to change the setting.
+
+
+
 Those controllers will directly interact with managers to achieve functions in needs.
 
-## Managers
+### Managers
 Managers manage different models according to the request from users through controllers.
 - Manager: a prototype class for different managers
 - AlertManager: sending alert
@@ -39,7 +56,7 @@ Managers manage different models according to the request from users through con
 - SecurityManager: auto-lock the advanced options, unlock the advanced options.
 - ShiftManager: manage all the shifts in a day
 
-## Models
+### Models
 Models are basic elements of the system.
 - Chore: permenant weekly chore shift
 - Crew: groups of chore
