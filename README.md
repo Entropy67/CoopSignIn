@@ -13,7 +13,7 @@ It has two modes: offline mode and Google drive mode
 ### Off-line mode
 Everything will be conducted locally within the app. You can register a permanent or one-time shift in the APP. The data will be stored in the local device.
 
-### Google-drive access
+### Google-drive mode
 Once sign-in with a Google account, it will work with APIs from Google drive. First, it can locate and download sign-in sheet from the Google drive linked to your account. Second, it will upload the data to  Google drive so that you can review the reports remotely. 
 
 ## Modules
