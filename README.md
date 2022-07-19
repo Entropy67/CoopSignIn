@@ -4,8 +4,16 @@
 I developed an App for chore shift management. Members can check-in/-out through the APP.
 Besides, the APP keeps track of the time points and generate no-show or credit report 
 accordingly. It also allows crew managers to manage the schedule by adding/editing/deleting a shift.
+<div class="row">
+  <div class="column">
+    <img src="IMG_0371.PNG" alt="home-screen" width="40%"/>
+  </div>
+  <div class="column">
+    <img src="IMG_0373.PNG" alt="home-screen" width="40%"/>
+  </div>
+</div>
 
-[![An old rock in the desert](/IMG_0371.png)
+
 
 ## Usage
 The APP is now available in TestFlight. Feel free to contact me if you want access. It will be published in APP store soon. 
