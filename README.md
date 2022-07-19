@@ -5,7 +5,7 @@ I developed an App for chore shift management. Members can check-in/-out through
 Besides, the APP keeps track of the time points and generate no-show or credit report 
 accordingly. It also allows crew managers to manage the schedule by adding/editing/deleting a shift.
 
-[![An old rock in the desert](/assets/images/shiprock.jpg)
+[![An old rock in the desert](/IMG_0371.png)
 
 ## Usage
 The APP is now available in TestFlight. Feel free to contact me if you want access. It will be published in APP store soon. 
