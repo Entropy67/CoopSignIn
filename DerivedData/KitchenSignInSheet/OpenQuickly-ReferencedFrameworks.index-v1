@@ -11,15 +11,15 @@
 	<string>GTMSessionFetcherCore</string>
 	<string>GoogleAPIClientForREST</string>
 	<string>JGProgressHUD</string>
-	<string>sys</string>
 	<string>Security</string>
-	<string>AppKit</string>
+	<string>sys</string>
 	<string>SafariServices</string>
-	<string>GTMSessionFetcher</string>
+	<string>Foundation</string>
+	<string>SpreadsheetView</string>
 	<string>GoogleSignIn</string>
 	<string>UIKit</string>
 	<string>AppAuth</string>
-	<string>Foundation</string>
-	<string>SpreadsheetView</string>
+	<string>GTMSessionFetcher</string>
+	<string>AppKit</string>
 </array>
 </plist>
