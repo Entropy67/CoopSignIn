@@ -1,1 +1,1 @@
-/Users/skyhd/Documents/xcode/CoopSignIn/DerivedData/KitchenSignInSheet/Build/Intermediates.noindex/ArchiveIntermediates/KitchenSignInSheet/InstallationBuildProductsLocation/Applications/SignIn.app
+../../InstallationBuildProductsLocation/Applications/SignIn.app

@@ -10,5 +10,14 @@
       'name': "module.modulemap",
       'external-contents': "/Users/skyhd/Documents/xcode/CoopSignIn/DerivedData/KitchenSignInSheet/Build/Intermediates.noindex/ArchiveIntermediates/KitchenSignInSheet/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/SpreadsheetView.build/unextended-module.modulemap",
     }]
-  }]
+    },
+    {
+    'type': 'directory',
+    'name': "/Users/skyhd/Documents/xcode/CoopSignIn/DerivedData/KitchenSignInSheet/Build/Intermediates.noindex/ArchiveIntermediates/KitchenSignInSheet/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/SpreadsheetView.framework/Headers"
+    'contents': [{
+      'type': 'file',
+      'name': "SpreadsheetView-Swift.h",
+      'external-contents': "/Users/skyhd/Documents/xcode/CoopSignIn/DerivedData/KitchenSignInSheet/Build/Intermediates.noindex/ArchiveIntermediates/KitchenSignInSheet/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/SpreadsheetView.build/unextended-interface-header.h",
+    }]
+    }]
 }

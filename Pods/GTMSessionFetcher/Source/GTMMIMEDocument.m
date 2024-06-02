@@ -104,11 +104,12 @@ static void SearchDataForBytes(NSData *data, const void *targetBytes, NSUInteger
                                     (unsigned long)_headers.count, (unsigned long)_bodyData.length];
 }
 
-- (BOOL)isEqual:(GTMMIMEDocumentPart *)other {
+- (BOOL)isEqual:(id)other {
   if (self == other) return YES;
   if (![other isKindOfClass:[GTMMIMEDocumentPart class]]) return NO;
-  return ((_bodyData == other->_bodyData || [_bodyData isEqual:other->_bodyData]) &&
-          (_headers == other->_headers || [_headers isEqual:other->_headers]));
+  GTMMIMEDocumentPart *otherPart = (GTMMIMEDocumentPart *)other;
+  return ((_bodyData == otherPart->_bodyData || [_bodyData isEqual:otherPart->_bodyData]) &&
+          (_headers == otherPart->_headers || [_headers isEqual:otherPart->_headers]));
 }
 
 - (NSUInteger)hash {
@@ -400,8 +401,14 @@ static void SearchDataForBytes(NSData *data, const void *targetBytes, NSUInteger
         // and map that two-byte subrange.
         const void *partDataBuffer;
         size_t partDataBufferSize;
+        // The clang included with Xcode 13.3 betas added a -Wunused-but-set-variable warning,
+        // which doesn't (yet) skip variables annotated with objc_precie_lifetime. Since that
+        // warning is not available in all Xcodes, turn off the -Wunused warning group entirely.
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wunused"
         dispatch_data_t mappedPartData NS_VALID_UNTIL_END_OF_SCOPE =
             dispatch_data_create_map(partData, &partDataBuffer, &partDataBufferSize);
+#pragma clang diagnostic pop
         dispatch_data_t bodyData;
         NSDictionary *headers;
         BOOL hasAnotherCRLF =
@@ -437,8 +444,11 @@ static void SearchDataForBytes(NSData *data, const void *targetBytes, NSUInteger
             numberOfPartsWithHeaders++;
           }  // crlfOffsets.count == 0
         }    // hasAnotherCRLF
-        GTMMIMEDocumentPart *part = [GTMMIMEDocumentPart partWithHeaders:headers
-                                                                    body:(NSData *)bodyData];
+
+        // bodyData being nil reflects malformed data; if so provide an empty
+        // NSData object rather than pass nil to a nonnull parameter.
+        GTMMIMEDocumentPart *part =
+            [GTMMIMEDocumentPart partWithHeaders:headers body:(NSData *)bodyData ?: [NSData data]];
         [parts addObject:part];
       }  //  previousPartDataLength < 2
       previousBoundaryOffset = currentBoundaryOffset.integerValue;

@@ -75,15 +75,14 @@ class ViewController: SecuredViewController{
             case "Look up history":
                 self.seeInfo()
             case "Sign in Google Drive":
-                self.didTapSignInButton(){(success) in print(success)}
+                self.didTapSignInButton(){(success) in print(success)
+                }
             case "Open advanced options":
                 self.showKCCOptions()
-            
-            case "* Look up spreadsheet":
-                self.seeFile()
             case "* Manage crews":
                 self.addNewCrew()
-                
+            case "* Upload spreadsheet":
+                self.seeFile()
             case "* Manage permenant shift":
                 self.addPermenantShift()
                 
@@ -465,11 +464,11 @@ class ViewController: SecuredViewController{
     func showKCCOptions(){
         didTapKCCOptions(){ [weak self] in
             self?.optionsManager.resetOptions(options: [//"Add a new shift",
-                                                        "Look up history",
+                                                        "Check History",
                                                         "Sign in Google Drive",
                                                         "* Settings",
                                                         "* Manage crews",
-                                                        "* Look up spreadsheet",
+                                                        "* Upload spreadsheet",
                                                         //"* Recover from drive",
                                                         "* Manage permenant shift",
                                                         "* Sign out Google Drive",
@@ -632,6 +631,8 @@ class ViewController: SecuredViewController{
             }else{
                 self.optionsManager.showOptions()
             }
+        }else{
+            AlertManager.sendAlert(title: "Disabled", message: "Please tap the 🔒 button to use the KC mode.", click: "OK", inView: self)
         }
     }
     
@@ -698,6 +699,8 @@ class ViewController: SecuredViewController{
                 checking = true
                 navigationItem.rightBarButtonItem?.title = "Finish Checking and upload"
                 collectionView.reloadData()
+            }else {
+                AlertManager.sendAlert(title: "Disabled", message: "Please tap the 🔒 button to use the KC mode.", click: "OK", inView: self)
             }
         }
         
@@ -1016,17 +1019,12 @@ class ViewController: SecuredViewController{
             completion(false)
             return
         }
-        
-        
-        if googleUser == nil{
-            GIDSignIn.sharedInstance()?.signIn()
-            completion(false)
-        }else{
-            if !silent{
-                AlertManager.sendAlert(title: "You have signed In.", message: "", click: "OK", inView: self)
-                LogManager.writeLog(info: "successfully signed in google drive. ")
-            }
-            completion(false)
+
+        GIDSignIn.sharedInstance()?.signIn()
+        completion(false)
+        if !silent{
+            AlertManager.sendAlert(title: "You have signed In.", message: "", click: "OK", inView: self)
+            LogManager.writeLog(info: "successfully signed in google drive. ")
         }
     }
     
@@ -1056,9 +1054,7 @@ extension ViewController: UICollectionViewDelegate{
                 self.addNewShift()
                 //}
             }else{
-                if PolicyManager.allowMemberToCreateShift(){
-                    self.didTapNotFindMyNameButton()
-                }
+                AlertManager.sendAlert(title: "Option disabled", message: "Please tap the 🔒 button to use the KC mode!", click: "OK", inView: self)
             }
             return
         }

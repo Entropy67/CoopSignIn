@@ -119,14 +119,14 @@ extension DataManager{
         
         let formatter = DateManager.dateFormatter
         formatter.dateFormat = "MMddyyyy"
-        let filename = "\(formatter.string(from: lastUpdateTime))_Records"
+        let filename = "\(formatter.string(from: lastUpdateTime))"
         
         do{
             let path = try fileManager.url(for: .documentDirectory, in: .allDomainsMask, appropriateFor: nil, create: false)
             
-            if(DataManager.checkFileExist(filename: filename + ".csv")){
-                LogManager.writeLog(info: "Deleting file \(filename).csv")
-                let fileURL = path.appendingPathComponent(filename + ".csv")
+            if(DataManager.checkFileExist(filename: filename + "_Records.csv")){
+                LogManager.writeLog(info: "Deleting file \(filename)_Records.csv")
+                let fileURL = path.appendingPathComponent(filename + "_Records.csv")
                 try fileManager.removeItem(at: fileURL)
             }
             
@@ -317,7 +317,7 @@ extension DataManager{
         do{
             let formatter = DateFormatter()
             formatter.dateFormat = "MMddyyyy"
-            let filename = "\(formatter.string(from: lastUpdateTime))_Records"
+            let filename = "\(formatter.string(from: lastUpdateTime))"
             try saveToCSV(filename: filename)
         }catch{
             LogManager.writeLog(info: "Error: failed to export data to csv. Error \(error)")
@@ -334,7 +334,7 @@ extension DataManager{
         var fileSaveError = false
         do {
             let path = try fileManager.url(for: .documentDirectory, in: .allDomainsMask, appropriateFor: nil, create: false)
-            let fileURL = path.appendingPathComponent(filename + ".csv")
+            let fileURL = path.appendingPathComponent(filename + "_Records.csv")
             //LogManager.writeLog(info: "Record.csv is saved to \(fileURL.absoluteString)")
             self.shiftManager.exportRecord(){ csvString in
                 do{

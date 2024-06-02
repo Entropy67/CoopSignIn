@@ -6,5 +6,5 @@ framework module SpreadsheetView {
 }
 
 module SpreadsheetView.__Swift {
-    exclude header "SpreadsheetView-Swift.h"
+  exclude header "SpreadsheetView-Swift.h"
 }

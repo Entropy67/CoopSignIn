@@ -14,12 +14,12 @@
 	<string>sys</string>
 	<string>Security</string>
 	<string>AppKit</string>
-	<string>Foundation</string>
-	<string>SpreadsheetView</string>
+	<string>SafariServices</string>
+	<string>GTMSessionFetcher</string>
 	<string>GoogleSignIn</string>
 	<string>UIKit</string>
 	<string>AppAuth</string>
-	<string>GTMSessionFetcher</string>
-	<string>SafariServices</string>
+	<string>Foundation</string>
+	<string>SpreadsheetView</string>
 </array>
 </plist>

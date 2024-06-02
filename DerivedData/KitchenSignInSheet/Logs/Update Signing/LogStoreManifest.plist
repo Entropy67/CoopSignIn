@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>8C4DA01D-6A21-4D50-A5CE-15C124BF045B</key>
+		<key>73BC322F-00D9-4EE2-97F4-DCD97E52B8CA</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,24 +15,52 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.ProvisioningLog</string>
 			<key>fileName</key>
-			<string>8C4DA01D-6A21-4D50-A5CE-15C124BF045B.xcactivitylog</string>
+			<string>73BC322F-00D9-4EE2-97F4-DCD97E52B8CA.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>S</string>
+				<string>E</string>
 			</dict>
 			<key>signature</key>
 			<string>Update Signing</string>
 			<key>timeStartedRecording</key>
-			<real>676774837.31399</real>
+			<real>739046330.27455497</real>
 			<key>timeStoppedRecording</key>
-			<real>676774838.37096095</real>
+			<real>739046334.62489903</real>
 			<key>title</key>
 			<string>Update Signing</string>
 			<key>uniqueIdentifier</key>
-			<string>8C4DA01D-6A21-4D50-A5CE-15C124BF045B</string>
+			<string>73BC322F-00D9-4EE2-97F4-DCD97E52B8CA</string>
+		</dict>
+		<key>B6C7170E-3FD2-42C5-AB97-3609553C7551</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.ProvisioningLog</string>
+			<key>fileName</key>
+			<string>B6C7170E-3FD2-42C5-AB97-3609553C7551.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>signature</key>
+			<string>Update Signing</string>
+			<key>timeStartedRecording</key>
+			<real>717967163.14003503</real>
+			<key>timeStoppedRecording</key>
+			<real>717967167.01868606</real>
+			<key>title</key>
+			<string>Update Signing</string>
+			<key>uniqueIdentifier</key>
+			<string>B6C7170E-3FD2-42C5-AB97-3609553C7551</string>
 		</dict>
 	</dict>
 </dict>

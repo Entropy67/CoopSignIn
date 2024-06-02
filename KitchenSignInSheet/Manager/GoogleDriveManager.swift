@@ -98,14 +98,14 @@ extension GoogleDriveManager{
         //LogManager.writeLog(info: "try to upload data")
         let formatter = DateFormatter()
         formatter.dateFormat = "MMddyyyy"
-        let filename = "\( formatter.string(from: timeStamp))_Records"
+        let filename = "\( formatter.string(from: timeStamp))"
         
         var allError = ""
         
         
         if self.googleUser != nil{
             
-            uploadCSV(filename: filename + ".csv", destination: target){ [weak self](info, error) in
+            uploadCSV(filename: filename + "_Records.csv", destination: target){ [weak self](info, error) in
                 allError += info ?? "" + ";"
                 if allError != ""{
                     completion(false, allError)
@@ -206,7 +206,6 @@ extension GoogleDriveManager{
         //let spreadsheetId = "1xlNJWMP8xWr1jKZw1z6kvSNHm50bXmgu7ICxDZeixxA"
         let query = GTLRSheetsQuery_SpreadsheetsValuesGet.query(withSpreadsheetId: spreadsheetId, range: "Sheet1")
         googleSheetService?.executeQuery(query){ _, result, error in
-            //print(" download result: \(result)")
             if let err = error{
                 LogManager.writeLog(info: "Google Drive Manager: Failed to read data from spreadsheet. Error: \(err)")
                 completion?([])
@@ -255,8 +254,6 @@ extension GoogleDriveManager{
         if !useGoogleDrive || !useSpreadsheet || !uploadDataToGoogleDrive{
             return
         }
-        
-        print("content: \(content)")
         guard rowToBeUpdated.count == columnToBeUpdated.count,  columnToBeUpdated.count == content.count else{
             return
         }
@@ -269,7 +266,6 @@ extension GoogleDriveManager{
             ranges.append("\(columnToBeUpdated[i])\(rowToBeUpdated[i]+1):\(columnToBeUpdated[i])\(rowToBeUpdated[i]+1)")
         }
         
-        print("ranges \(ranges)")
         
         let group = DispatchGroup()
         ranges = ranges.map{"Sheet1" + "!" + $0};
@@ -440,34 +436,69 @@ extension GoogleDriveManager{
             
         let file = GTLRDrive_File()
         file.name = path.components(separatedBy: "/").last
-        file.parents = [parentID]
-
         self.search(file.name!){ (fileID, error) in
             if error==nil{
-                self.delete(fileID) {(error) in
-                    if error == nil{
-                        //LogManager.writeLog(info: "upload: delete google drive file successfully!")
-                        let uploadParams = GTLRUploadParameters.init(data: data, mimeType: MIMEType)
-                        uploadParams.shouldUploadWithSingleRequest = true
-                            
-                        let query = GTLRDriveQuery_FilesCreate.query(withObject: file, uploadParameters: uploadParams)
-                        query.fields = "id"
-                        query.keepRevisionForever = false
-                        
-                        googleDriveService.executeQuery(query, completionHandler: { (ticket, file, error) in
-                            //onCompleted?((file as? GTLRDrive_File)?.identifier, error)// this returns the fileID
-                            if error != nil {
-                                onCompleted?("upload: google drive service unable to execute query! ", error)
-                            }else{
-                                onCompleted?("", error)
-                            }
-                        })
-
-                    }else{
-                        LogManager.writeLog(info: "upload: unable to delete the file: \(String(describing: error))")
-                        onCompleted?("unable to delete the file: \(file.name!)", error)
-                    }
+                let uploadParams = GTLRUploadParameters.init(data: data, mimeType: MIMEType)
+                uploadParams.shouldUploadWithSingleRequest = true
+                
+                if let fileId = fileID{
+                    let query = GTLRDriveQuery_FilesUpdate.query( withObject: file, fileId: fileId, uploadParameters: uploadParams)
+                    
+                    query.fields = "id"
+                    query.addParents = parentID
+                    query.keepRevisionForever = false
+                    googleDriveService.executeQuery(query, completionHandler: { (ticket, file, error) in
+                        if error != nil {
+                            LogManager.writeLog(info: "upload: google drive service unable to execute upload query! Error= \(String(describing: error))")
+                            onCompleted?("upload: google drive service unable to execute upload query! Error=", error)
+                        }else{
+                            onCompleted?("", error)
+                        }
+                    })
                 }
+                else{
+                    file.parents = [parentID]
+                    let query = GTLRDriveQuery_FilesCreate.query(withObject: file, uploadParameters: uploadParams)
+                    query.fields = "id"
+                    query.keepRevisionForever = false
+
+                    googleDriveService.executeQuery(query, completionHandler: { (ticket, file, error) in
+                        //onCompleted?((file as? GTLRDrive_File)?.identifier, error)// this returns the fileID
+                        if error != nil {
+                            LogManager.writeLog(info: "upload: google drive service unable to execute upload query! Error= \(String(describing: error))")
+                            onCompleted?("upload: google drive service unable to execute upload query! Error=", error)
+                        }else{
+                            onCompleted?("", error)
+                        }
+                    })
+                }
+                
+                
+                
+//                self.delete(fileID) {(error) in
+//                    if error == nil{
+//                        //LogManager.writeLog(info: "upload: delete google drive file successfully!")
+//                        let uploadParams = GTLRUploadParameters.init(data: data, mimeType: MIMEType)
+//                        uploadParams.shouldUploadWithSingleRequest = true
+//
+//                        let query = GTLRDriveQuery_FilesCreate.query(withObject: file, uploadParameters: uploadParams)
+//                        query.fields = "id"
+//                        query.keepRevisionForever = false
+//
+//                        googleDriveService.executeQuery(query, completionHandler: { (ticket, file, error) in
+//                            //onCompleted?((file as? GTLRDrive_File)?.identifier, error)// this returns the fileID
+//                            if error != nil {
+//                                onCompleted?("upload: google drive service unable to execute query! ", error)
+//                            }else{
+//                                onCompleted?("", error)
+//                            }
+//                        })
+//
+//                    }else{
+//                        LogManager.writeLog(info: "upload: unable to delete the file: \(String(describing: error))")
+//                        onCompleted?("unable to delete the file: \(file.name!)", error)
+//                    }
+//                }
             }else{
                 LogManager.writeLog(info: "upload: search error \(String(describing: fileID))")
                 onCompleted?("search error when try to find \(file.name!)", error)
@@ -487,15 +518,6 @@ extension GoogleDriveManager{
             } else {
                 LogManager.writeLog(info: "GoogleDrive: upload did not find folder \(folderName). Error: \(error)")
                 onCompleted?("Failed to upload the file because cannot connect to the folder \(folderName) on Google Drive. This might because internet issue. Please try again later. If this continues happening, please contact amo@ucha.coop. ", GoogleDriveError.failedToFindFolder)
-//                self.createFolder(folderName, onCompleted: { (folderID, error) in
-//                    guard let ID = folderID else {
-//                        LogManager.writeLog(info: "GoogleDrive: upload did not find folder \(folderName). frailed to creating \(folderName)")
-//                        onCompleted?("uploadFile: createFolder failed! ", error)
-//                        return
-//                    }
-//                    LogManager.writeLog(info: "GoogleDrive: upload did not find folder \(folderName).  created \(folderName). start uploading.")
-//                    self.upload(ID, path: filePath, MIMEType: MIMEType, onCompleted: onCompleted)
-//                })
             }
         }
     }

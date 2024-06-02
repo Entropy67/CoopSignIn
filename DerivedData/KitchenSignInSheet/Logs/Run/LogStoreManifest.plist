@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>E4554319-3941-4F08-B68D-20992D1A5708</key>
+		<key>44A420D2-6BA4-40B1-B97E-75577A5F4695</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>E4554319-3941-4F08-B68D-20992D1A5708.xcactivitylog</string>
+			<string>44A420D2-6BA4-40B1-B97E-75577A5F4695.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,13 +32,115 @@
 			<key>signature</key>
 			<string>Run SignIn</string>
 			<key>timeStartedRecording</key>
-			<real>676778204.149997</real>
+			<real>694233357.97358096</real>
 			<key>timeStoppedRecording</key>
-			<real>676778567.55079198</real>
+			<real>694233464.47496104</real>
 			<key>title</key>
 			<string>Run SignIn</string>
 			<key>uniqueIdentifier</key>
-			<string>E4554319-3941-4F08-B68D-20992D1A5708</string>
+			<string>44A420D2-6BA4-40B1-B97E-75577A5F4695</string>
+		</dict>
+		<key>5F50FBCA-8759-4FB3-AEC6-E8D836F22EAD</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>5F50FBCA-8759-4FB3-AEC6-E8D836F22EAD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>KitchenSignInSheet project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>KitchenSignInSheet</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run SignIn</string>
+			<key>timeStartedRecording</key>
+			<real>709915344.68031597</real>
+			<key>timeStoppedRecording</key>
+			<real>709915354.98995101</real>
+			<key>title</key>
+			<string>Run SignIn</string>
+			<key>uniqueIdentifier</key>
+			<string>5F50FBCA-8759-4FB3-AEC6-E8D836F22EAD</string>
+		</dict>
+		<key>B8434A51-8F3A-4AE5-B956-8C75AFB7FB4B</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B8434A51-8F3A-4AE5-B956-8C75AFB7FB4B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>KitchenSignInSheet project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>KitchenSignInSheet</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run SignIn</string>
+			<key>timeStartedRecording</key>
+			<real>709917224.10249996</real>
+			<key>timeStoppedRecording</key>
+			<real>709917967.60435295</real>
+			<key>title</key>
+			<string>Run SignIn</string>
+			<key>uniqueIdentifier</key>
+			<string>B8434A51-8F3A-4AE5-B956-8C75AFB7FB4B</string>
+		</dict>
+		<key>FB11ACBA-5940-4DC8-AE4E-750968EDA31E</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>FB11ACBA-5940-4DC8-AE4E-750968EDA31E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>KitchenSignInSheet project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>KitchenSignInSheet</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run SignIn</string>
+			<key>timeStartedRecording</key>
+			<real>709916729.18762803</real>
+			<key>timeStoppedRecording</key>
+			<real>709917216.99617302</real>
+			<key>title</key>
+			<string>Run SignIn</string>
+			<key>uniqueIdentifier</key>
+			<string>FB11ACBA-5940-4DC8-AE4E-750968EDA31E</string>
 		</dict>
 	</dict>
 </dict>

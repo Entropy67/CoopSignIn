@@ -6,6 +6,6 @@ framework module SpreadsheetView {
 }
 
 module SpreadsheetView.Swift {
-    header "SpreadsheetView-Swift.h"
-    requires objc
+  header "SpreadsheetView-Swift.h"
+  requires objc
 }

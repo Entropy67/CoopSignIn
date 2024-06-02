@@ -376,13 +376,6 @@ class SignInViewController: SecuredViewController, UITextFieldDelegate{
             return
         }
 
-        
-        var message = ""
-        if shift.notes == ""{
-            message = "add notes to \(shift.name)"
-        }else{
-            message = shift.notes
-        }
         let alertController = UIAlertController(title: "Add notes", message: "add notes to \(shift.name)", preferredStyle: .alert)
         alertController.addTextField { (textField) in
             textField.placeholder = "Input notes"
@@ -411,7 +404,7 @@ class SignInViewController: SecuredViewController, UITextFieldDelegate{
     
     func didTapDeletButton(){
         guard let shift = shift, shift.source != "AMO" else {
-            AlertManager.sendAlert(title: "Delete Failed", message: "😢Sorry. This shift cannot be deleted.", click: "OK", inView: self)
+            AlertManager.sendAlert(title: "Delete Failed", message: "This shift cannot be deleted because it is assigned by AMO.", click: "OK", inView: self)
             return
         }
         let newStatus = Status(signed: false,
@@ -426,7 +419,7 @@ class SignInViewController: SecuredViewController, UITextFieldDelegate{
                                              preferredStyle: .alert)
 
         refreshAlert.addAction(UIAlertAction(title: "OK", style: .destructive, handler: { (action: UIAlertAction!) in
-          self.sendAlertComplete(title:"Shift deleted", message: "🗑This shift has been deleted. Thank you.", newStatus: newStatus)
+          self.sendAlertComplete(title:"Shift deleted", message: "This shift has been deleted. Thank you.", newStatus: newStatus)
           }))
 
         refreshAlert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler:nil))
@@ -462,7 +455,7 @@ class SignInViewController: SecuredViewController, UITextFieldDelegate{
         
         if shift.status.noShow{
             if locked{
-                AlertManager.sendAlert(title: "⚠️Failed to sign-in", message: "You cannot sign in any more becuase it is too late. Your shift has been marked as no-show.", click: "OK", inView: self)
+                AlertManager.sendAlert(title: "⚠️ Sign-in Failed", message: "Failed to sign-in. Your shift has been marked as no-show.", click: "OK", inView: self)
                 return
             }
         }
@@ -487,9 +480,9 @@ class SignInViewController: SecuredViewController, UITextFieldDelegate{
                 
                 if shift.status.noShow{
                     shift.addNotes(note: "Late sign-in.")
-                    self?.sendAlertComplete(title: "⚠️Late sign-in", message: "You have signed in. However, you are late for your shift. This is recorded and will be reported to the AMO.", newStatus: newStatus)
+                    self?.sendAlertComplete(title: "⚠️Late sign-in", message: "Sign-in success. However, you are late for your shift. This is recorded and will be reported to AMO.", newStatus: newStatus)
                 } else{
-                    self?.sendAlertComplete(title: "Signed in", message: "🎉🎉 You have successfully signed in for this shift.👨‍🍳🍔🥘 ", newStatus: newStatus)
+                    self?.sendAlertComplete(title: "Signed in", message: "🎉🎉 Sign-in success.", newStatus: newStatus)
                 }
             }
             
